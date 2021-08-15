@@ -1,10 +1,101 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+/* ------- General configs ------- */
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+
+/* ------- Header ------- */
+
+header {
+  display: flex;
+  align-items:flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 100px 150px;
+}
+
+.blue-bg {
+  background-image: url("../images/bgtile.png");
+  height: 120px;
+}
+
+.logo-img {
+  margin: 0 50px;
+}
+
+.login-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+  padding: 10px 15px;
+  margin-top: 15px;
+
+  color: white;
+  font-weight: bolder;
+
+  border: 1px solid #06365f;
+  border-radius: 3px;
+  background-color: #1c5380;
+  box-shadow: 1px 1px 1px #06365f;
+}
+
+.login-btn:hover {
+  background-color: #06365f;
+  border: 1px solid #1c5380;
+  box-shadow: 1px 1px 1px #1c5380;
+}
+
+
+/* ------- Main Section ------- */
+section {
+  display: flex;
+  flex-direction: column;
+  width: 460px;
+  padding: 20px 20px 0px 40px;
+}
+
+.white-bg {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  position: relative;
+  top: -100px;
+  float: right;
+  margin-right: 130px;
+}
+
+section h2 {
+  color: #06365f;
+  padding-left: 10px;
+}
+
+section p {
+  line-height: 1.7rem;
+  padding: 0 40px 0 10px;
+}
+
+.download-imgs {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 60px 0 0;
+}
+
+
+/* ------- Footer ------- */
+
+footer {
+  text-align: center;
+  margin-bottom: 70px;
+  clear: both;
+  font-size: small;
+}
+
+footer a {
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bolder;
+  padding: 0 10px;
 }

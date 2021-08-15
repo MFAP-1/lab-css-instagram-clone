@@ -1,16 +1,50 @@
+<!-- WEEK 1 - DAY5: LAB | CSS Instagram Clone [MFAP-1] -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Instagram Clone</title>
-    <!-- don't forget to link your styles -->
+    
+    <!-- Linking to css styles -->
+    <link rel="stylesheet" href="styles/style.css" />
+    
   </head>
   <body>
-    Instagram Capture and Share the World's Moments Instagram is a fast, beautiful and fun way to share your life with
-    friends and family. Take a picture or video, choose a filter to transform its look and feel, then post to Instagram
-    &mdash; it's that easy. You can even share to Facebook, Twitter, Tumblr and more. It's a new way to see the world.
-    Oh yeah, did we mention it's free? Download on the App Store Get it on Google Play About Us Support Blog Press API
-    Jobs Privacy Terms &copy; 2014 Instagram
+    <header class="blue-bg">
+      <img src="./images/phones.png" alt="phones large image" />
+      <div class="logo-img">
+        <img src="./images/brand.png" alt="Instagram brand logo" />
+      </div>
+      <button class="login-btn" href="/login">
+        <img src="./images/home.png" alt="Home icon" />
+        <span>Log in</span>
+      </button>
+  </header>
+
+    <section class="white-bg">
+      <h2>Capture and Share the World's Moments</h2> 
+      <p>Instagram is a <b>fast</b>, <b>beautiful</b> and <b>fun</b> way to share your life with friends and family.<br/> 
+      Take a picture or video, choose a filter to transform its look and feel, then post to Instagram &mdash; it's that easy. You can even share to Facebook, Twitter, Tumblr and more. It's a new way to see the world.<br/>
+      Oh yeah, did we mention it's free?</p> 
+      <div class="download-imgs"> 
+        <img src="./images/badge-iphone.png" alt="Download on the App Store" />
+        <img src="./images/badge-android.png" alt="Get it on Google Play icon" />    
+      </div>  
+    </section>
+    
+    <footer>
+      <a href="/about"> ABOUT US</a>
+      <a href="/support">SUPPORT</a>  
+      <a href="/blog">BLOG</a>
+      <a href="/press">PRESS</a>
+      <a href="/api">API</a>
+      <a href="/jobs">JOBS</a>
+      <a href="/privacy">PRIVACY</a>
+      <a href="/terms">TERMS</a> 
+      <span style="color: gray; font-weight: bolder">&copy; 2014 INSTAGRAM </span>
+    </footer>
+
   </body>
 </html>
